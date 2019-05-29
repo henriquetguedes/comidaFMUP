@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html style="margin: 0px; height:100%">
+
+<head>
+    <title>comida na FMUP acerca</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="includes/css/uikit.min.css" />
+    <script src="includes/js/jquery-3.4.1.min.js"></script>
+    <script src="includes/js/uikit.min.js"></script>
+    <script src="includes/js/uikit-icons.min.js"></script>
+    <script src="includes/js/mustache.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="uk-background-secondary" style="margin: 0px; height:100%">
+
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="index.html">comidaFMUP</a>
+
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">
+                        <span class="uk-margin-small-right"></span>
+                        Acerca disto
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="uk-light">
+        Próximos passos: <br>
+        -webdesign<br>
+        --melhorar navbar<br>
+        <br>
+        -programar/comunicação com json<br>
+        --mostrar seta para a frente/tras só se houver dados<br>
+        --mostrar aviso fechado (greves, jantares, fds)<br>
+        --lidar com selecção de datas para as quais não há dados<br>
+        <br>
+        -dados<br>
+        --excel com todos os registos<br>
+        ---folha com o log e folha apenas do que se quer adicionar<br>
+        --construtor de JSON<br>
+        --upload para o server<br>
+    </div>
+</body>
+
+
+<!--
+    <h3>{{name}}</h3>
+    {{#meals}}
+    <h4>{{name}}</h4>
+    <h5>Sopas</h5>
+    <ul>
+        {{#soup}}
+        <li>{{.}}</li>
+        {{/soup}}
+    </ul>
+    <h5>Pratos</h5>
+    <ul>
+        Carne
+        {{#meat}}
+        <li>{{.}}</li>
+        {{/meat}}
+        Peixe
+        {{#fish}}
+        <li>{{.}}</li>
+        {{/fish}}
+        Dieta
+        {{#diet}}
+        <li>{{.}}</li>
+        {{/diet}}
+        Opção
+        {{#opti}}
+        <li>{{.}}</li>
+        {{/opti}}
+        Vegetariano
+        {{#vegie}}
+        <li>{{.}}</li>
+        {{/vegie}}
+    </ul>
+    {{/meals}}
+    <hr />-->
+
+</html>

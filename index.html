@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html style="margin: 0px; min-height:100vh">
+
+<head>
+    <title>comida na FMUP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="includes/css/uikit.min.css" />
+    <script src="includes/js/jquery-3.4.1.min.js"></script>
+    <script src="includes/js/uikit.min.js"></script>
+    <script src="includes/js/uikit-icons.min.js"></script>
+    <script src="includes/js/mustache.min.js"></script>
+    <script src="includes/js/moment.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="uk-background-secondary" style="margin: 0px; min-height:100vh">
+
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="#">comidaFMUP</a>
+
+            <div class="uk-navbar-item">
+                <form action="javascript:void(0)">
+                    <input class="uk-input uk-form-width-medium" id="calendas" type="date" placeholder="">
+                    <button class="uk-button uk-button-default" onclick="verdata();">Ver data</button>
+                </form>
+            </div>
+
+        </div>
+    </nav>
+
+    <div id="meals" class="uk-light">
+
+    </div>
+
+    <div>
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="ns.html">
+                    <span class="uk-margin-small-right"></span>
+                    Acerca disto
+                </a>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
