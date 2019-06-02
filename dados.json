@@ -1,5 +1,109 @@
 [
     {
+        "date": "2019-06-02",
+        "weekday": true,
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Lavrador",
+                            "Juliana de legumes"
+                        ],
+                        "meat": [
+                            "Lombo assado com batata assada"
+                        ],
+                        "fish": [
+                            "Arroz de tentáculos de pota"
+                        ],
+                        "diet": [
+                            "Badejo estufado com puré"
+                        ],
+                        "vegie": [
+                            "Salada morna de laçarotes"
+                        ],
+                        "opti": [
+                            "Frango à Passarinho com arroz e batata frita"
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Couve",
+                            "Abóbora e ervilhas"
+                        ],
+                        "meat": [
+                            "Folhados de carne com arroz"
+                        ],
+                        "fish": [
+                            "Bacalhau em cama de legumes c/arroz"
+                        ],
+                        "diet": [
+                            "Bife de frango grelhado com laços"
+                        ],
+                        "vegie": [
+                            "Hambúrguer de feijão frade e cenoura com arroz"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-06-01",
+        "weekday": true,
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Espinafres e cenoura",
+                            "Penca"
+                        ],
+                        "meat": [
+                            "Lasanha de carne"
+                        ],
+                        "fish": [
+                            "Peixe espada grelhado c/m. manteiga e batata cozida"
+                        ],
+                        "diet": [
+                            "Fêvera grelhada com arroz"
+                        ],
+                        "vegie": [
+                            "Chili vegetariano com arroz"
+                        ],
+                        "opti": [
+                            "Açorda de marisco"
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Puré de nabo com cenoura e alho francês",
+                            "Feijão verde e cenoura raspada"
+                        ],
+                        "meat": [
+                            "Arroz de aves no forno"
+                        ],
+                        "fish": [
+                            "Perca grelhada com batatas a murro"
+                        ],
+                        "diet": [
+                            "Pescada cozida com salada russa"
+                        ],
+                        "vegie": [
+                            "Caril de grão com legumes e arroz"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2019-05-31",
         "weekday": true,
         "locations": [

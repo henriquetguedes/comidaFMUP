@@ -4,7 +4,7 @@ Plataforma de apresentação centralizada das ementas do refeitório do HSJ, can
 
 # Próximos passos: 
 * webdesign
-    * setas de navegação alinhada
+    * ~~setas de navegação alinhada~~
 
 * código
     * mostrar seta para a frente/tras só se houver dados na data alvo
