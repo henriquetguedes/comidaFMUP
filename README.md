@@ -12,5 +12,5 @@ Plataforma de apresentação centralizada das ementas do refeitório do HSJ, can
 
 * dados
     * Google com todos os registos
-    * construtor de JSON a partir da tabela
+    * ~~construtor de JSON a partir da tabela~~
     * upload automático para o servidor
