@@ -1,5 +1,107 @@
 [
     {
+        "date": "2019-06-09",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "À espera de info",
+                            "À espera de info"
+                        ],
+                        "meat": [
+                            "Feijoada à Portuguesa com arroz"
+                        ],
+                        "fish": [
+                            "Empadão de atum"
+                        ],
+                        "diet": [
+                            "Dpirada hrelhada com batata cozida"
+                        ],
+                        "vegie": [
+                            "Emapdas de legumes com arroz"
+                        ],
+                        "opti": [
+                            "Entrecosto assado com molho de leitão e batatinha assada"
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "À espera de info",
+                            "À espera de info"
+                        ],
+                        "meat": [
+                            "Pica-pau de porco com batata frita e arroz"
+                        ],
+                        "fish": [
+                            "Pescada à Zé do Pipo com arroz"
+                        ],
+                        "diet": [
+                            "Franfo grelhado com espirais"
+                        ],
+                        "vegie": [
+                            "Paelha vegetariana com tofu"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-06-08",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "À espera de info",
+                            "À espera de info"
+                        ],
+                        "meat": [
+                            "Coelho estufado com ervilhas e arroz"
+                        ],
+                        "fish": [
+                            "Salmão à Lagareiro com batatas a murro"
+                        ],
+                        "diet": [
+                            "Cozido Simples"
+                        ],
+                        "vegie": [
+                            "Tarte vegetariana com formas de arroz"
+                        ],
+                        "opti": [
+                            "Medalhões de peixe em crosta com arroz"
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "À espera de info",
+                            "À espera de info"
+                        ],
+                        "meat": [
+                            "Panados de peru com arroz alegre"
+                        ],
+                        "fish": [
+                            "Solha à Rosa do Adro com arroz"
+                        ],
+                        "diet": [
+                            "Pescada assada ao natural com batata assada ao natural"
+                        ],
+                        "vegie": [
+                            "Crepes de legumes e cogumelos com arroz alegre"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2019-06-07",
         "locations": [
             {
@@ -12,19 +114,19 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Fêveras à Parmegiana com batata frita"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Lasanha de peixe"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Perca grelhada com arroz de legumes"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Piza vegetariana"
                         ],
                         "opti": [
-                            "À espera de info"
+                            "Almôndegas de bovino com molho de tomate e esparguete"
                         ]
                     },
                     {
@@ -34,16 +136,16 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Costeleta à Salsicheiro com batata cozida"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Pataniscas de bacalhau com arroz de nabiças"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Novilho estudado simples com arroz"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Feijoada à Provençal com arroz"
                         ]
                     }
                 ]
@@ -54,16 +156,16 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info"
+                            "Nabos e ervilhas"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Espetadas de porco no forno com arroz de cenoura"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Carapau assado com coube e bacon e batata assada"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Arroz à grega com seitan"
                         ]
                     }
                 ]
@@ -120,19 +222,19 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Carne de vaca estufada à fatia com esparguete de cenoura"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Robalo grelhado com batat cozida"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Frango assado ao natural com arroz"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Folhados de espinafres com arroz"
                         ],
                         "opti": [
-                            "À espera de info"
+                            "Feijoada de marisco com forma de arroz"
                         ]
                     },
                     {
@@ -142,16 +244,16 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Rojões à Moda do Minho (arroz e batata aos cubos)"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Red-fish assado com cebola às rodelas e puré"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Badejo grelhado com batata cozida"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Hambúrguer de beterraba e curgete com arroz"
                         ]
                     }
                 ]
@@ -162,16 +264,16 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info"
+                            "Grão-de-bico e couve lombarda"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Macarronada de carne de vaca gratinada"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Pescada à Rosa do Adro com arroz"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Empadão de tofu"
                         ]
                     }
                 ]
@@ -228,19 +330,19 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Arroz de pato"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Bacalhau assado com broa e batata assada"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Espetadas de peixe (tintureira e salmão) com batata cozida"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Alho francês à Brás"
                         ],
                         "opti": [
-                            "À espera de info"
+                            "Escalopes de frango com mollho de 'champignons' e arroz"
                         ]
                     },
                     {
@@ -250,16 +352,16 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Strogonoff de porco com molho de tomate e arroz"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Filetes de pescad com arroz de legumes"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Peru assado ao natural com puré"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Massa gratinada com legumes"
                         ]
                     }
                 ]
@@ -270,16 +372,16 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info"
+                            "Feijão branco e repolho"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Frango à Brás"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Sardinha grelhada com molho verde e batata cozida"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Curgete recheada com soja e arroz"
                         ]
                     }
                 ]
@@ -336,19 +438,19 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Naco de porco à Mirandesa com batatas a murro"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Rolinhos de peixe com bacon e arroz"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Bife de peru grelhado com macarronete de cenoura"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Omelete de cebola com arroz"
                         ],
                         "opti": [
-                            "À espera de info"
+                            "Tentáculos de pota panados com arroz da mesma"
                         ]
                     },
                     {
@@ -358,16 +460,16 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Grelhada mista com arroz e batata frita"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Abrótea no forno com cebola e pimentos com arroz"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Raia cozida com salada russa"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Legumes à Gomes de Sá"
                         ]
                     }
                 ]
@@ -378,16 +480,16 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info"
+                            "Alho francês e couve-flor"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Bife de peru grelhado com grão-de-bico cozido e legumes verdes"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Caril de potas com arroz"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Lentilhas estufadas com seitan e batata cozida"
                         ]
                     }
                 ]
@@ -444,19 +546,19 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Roti de peru com batatinha assada e arroz"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Canelones de peixe"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Pescada grelhada com arroz de ervilhas"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Esparguete à Bolonhesa de soja"
                         ],
                         "opti": [
-                            "À espera de info"
+                            "Quiche de frango"
                         ]
                     },
                     {
@@ -466,16 +568,16 @@
                             "À espera de info"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Empadão de carne"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Petinga frita com arroz de feijão"
                         ],
                         "diet": [
-                            "À espera de info"
+                            "Costeleta de porco grelhada com arroz"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Tortilha de queijo com ervas aromáticas"
                         ]
                     }
                 ]
@@ -486,16 +588,16 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info"
+                            "Creme de espinafres"
                         ],
                         "meat": [
-                            "À espera de info"
+                            "Entrecosto de porco assado à Transmontana com batata assada"
                         ],
                         "fish": [
-                            "À espera de info"
+                            "Migas de bacalhau e couve à lagareiro com batata"
                         ],
                         "vegie": [
-                            "À espera de info"
+                            "Bifes de tofu grelhados com migas de feijão frade e grelos"
                         ]
                     }
                 ]
