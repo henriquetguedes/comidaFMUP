@@ -8,8 +8,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Curgete com juliana de legumes",
+                            "Abóbora com feijão verde"
                         ],
                         "meat": [
                             "Feijoada à Portuguesa com arroz"
@@ -30,8 +30,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Penca com feijão branco",
+                            "Juliana de legumes"
                         ],
                         "meat": [
                             "Pica-pau de porco com batata frita e arroz"
@@ -59,8 +59,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Espinafres",
+                            "Caldo verde"
                         ],
                         "meat": [
                             "Coelho estufado com ervilhas e arroz"
@@ -81,8 +81,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Couve com abóbora",
+                            "Lombarda"
                         ],
                         "meat": [
                             "Panados de peru com arroz alegre"
@@ -110,8 +110,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Brócolos com nabo e cenoura",
+                            "Repolho"
                         ],
                         "meat": [
                             "Fêveras à Parmegiana com batata frita"
@@ -132,8 +132,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Feijão verde laminado",
+                            "Espinafres"
                         ],
                         "meat": [
                             "Costeleta à Salsicheiro com batata cozida"
@@ -218,8 +218,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Couve com cenoura aos cubos",
+                            "Brócolos e cenoura"
                         ],
                         "meat": [
                             "Carne de vaca estufada à fatia com esparguete de cenoura"
@@ -240,8 +240,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Juliana de legumes",
+                            "Alho francês e cenoura"
                         ],
                         "meat": [
                             "Rojões à Moda do Minho (arroz e batata aos cubos)"
@@ -326,8 +326,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Alho francês com cenoura raspada",
+                            "Nabiças"
                         ],
                         "meat": [
                             "Arroz de pato"
@@ -342,14 +342,14 @@
                             "Alho francês à Brás"
                         ],
                         "opti": [
-                            "Escalopes de frango com mollho de 'champignons' e arroz"
+                            "Escalopes de frango com mollho de 'champignons e arroz"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Legumes e curgete",
+                            "Penca com nabo"
                         ],
                         "meat": [
                             "Strogonoff de porco com molho de tomate e arroz"
@@ -434,8 +434,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Penca com feijão vermelho",
+                            "Grão com espinafres"
                         ],
                         "meat": [
                             "Naco de porco à Mirandesa com batatas a murro"
@@ -456,8 +456,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Caldo verde",
+                            "Feijão verde"
                         ],
                         "meat": [
                             "Grelhada mista com arroz e batata frita"
@@ -542,8 +542,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Couve e cenoura",
+                            "Alho francês"
                         ],
                         "meat": [
                             "Roti de peru com batatinha assada e arroz"
@@ -564,8 +564,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "À espera de info",
-                            "À espera de info"
+                            "Alho francês",
+                            "Brócolos e cenoura"
                         ],
                         "meat": [
                             "Empadão de carne"
