@@ -5,6 +5,9 @@ Plataforma de apresentação centralizada das ementas do refeitório do HSJ, can
 # Próximos passos: 
 * webdesign
     * ~~setas de navegação alinhada~~
+    * favicon/ícone do comidaFMUP
+    * theme-color no head para Chrome em Android
+    * social snippets (open graphs, etc.)
 
 * código
     * mostrar seta para a frente/tras só se houver dados na data alvo
