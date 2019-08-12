@@ -1,5 +1,647 @@
 [
     {
+        "date": "2019-08-18",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Curgete com alho francês",
+                            "Abóbora com feijão verde"
+                        ],
+                        "meat": [
+                            "Rolo de carne recheado com espinafres, c/arroz"
+                        ],
+                        "fish": [
+                            "Medalhões de peixe (pescada) panados com puré"
+                        ],
+                        "diet": [
+                            "Truta grelhada com batata cozida"
+                        ],
+                        "vegie": [
+                            "Bolonhesa de soja com esparguete"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Feijão manteiga couve e cenoura",
+                            "Juliana de legumes"
+                        ],
+                        "meat": [
+                            "Fêvera grelhada com m. de cogumelos e puré"
+                        ],
+                        "fish": [
+                            "Potas estufadas com arroz"
+                        ],
+                        "diet": [
+                            "Frango assado ao natural com arroz de legumes"
+                        ],
+                        "vegie": [
+                            "Pataniscas de legumes com arroz"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-17",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Creme de abóbora com cenoura",
+                            "Caldo verde"
+                        ],
+                        "meat": [
+                            "Churrasquinho de carnes c/arroz e batata pala"
+                        ],
+                        "fish": [
+                            "Espetadas de peixe (salmão/tintureira) c//batata cozida"
+                        ],
+                        "diet": [
+                            "Pescada cozida com batata cozida"
+                        ],
+                        "vegie": [
+                            "Tarte de legumes c/ forma de arroz"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Espinafres",
+                            "Lombarda"
+                        ],
+                        "meat": [
+                            "Macarronete de carne de vaca c/cenoura-rodelas"
+                        ],
+                        "fish": [
+                            "Corvina assada com broa e batatinha assada"
+                        ],
+                        "diet": [
+                            "Escalopes de frango grelhados com fusilli"
+                        ],
+                        "vegie": [
+                            "Omolete de cogumelos com arroz"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-16",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Brócolos com nabo e cenoura",
+                            "Repolho"
+                        ],
+                        "meat": [
+                            "Acepipes variados com arroz alegre"
+                        ],
+                        "fish": [
+                            "Paloco com natas"
+                        ],
+                        "diet": [
+                            "Costeleta grelhada com arroz"
+                        ],
+                        "vegie": [
+                            "Caril de grão e couve lombarda, c/forma de arroz"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Feijão verde laminado",
+                            "Espinafres"
+                        ],
+                        "meat": [
+                            "Naco de porco à Mirandesa com batatas a murro"
+                        ],
+                        "fish": [
+                            "Peixe (pescada) à Brás"
+                        ],
+                        "diet": [
+                            "Red-fish assado ao nat. c/bat. assada ao natural"
+                        ],
+                        "vegie": [
+                            "Tofu à Parmegiana com arroz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Encerrada"
+                        ],
+                        "meat": [
+                            "Encerrada"
+                        ],
+                        "fish": [
+                            "Encerrada"
+                        ],
+                        "vegie": [
+                            "Encerrada"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "à espera de info"
+                        ],
+                        "fish": [
+                            "à espera de info"
+                        ],
+                        "vegie": [
+                            "à espera de info"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-15",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Penca com feijão vermelho",
+                            "Brócolos"
+                        ],
+                        "meat": [
+                            "Shoarma com batata frita"
+                        ],
+                        "fish": [
+                            "Filetes de pescada c/arroz de tomate malandrinho"
+                        ],
+                        "diet": [
+                            "Frango grelhado com arroz"
+                        ],
+                        "vegie": [
+                            "Almofadinhas de legumes com arroz"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Abóbora com lombarda",
+                            "Alho francês e cenoura"
+                        ],
+                        "meat": [
+                            "Novilho assado com batatinha assada e arroz"
+                        ],
+                        "fish": [
+                            "Pescada à Moda de Braga c/batata frita às rodelas"
+                        ],
+                        "diet": [
+                            "Bife de peru estufado simples com laços"
+                        ],
+                        "vegie": [
+                            "Croquetes de cenoura com arroz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Encerrada"
+                        ],
+                        "meat": [
+                            "Encerrada"
+                        ],
+                        "fish": [
+                            "Encerrada"
+                        ],
+                        "vegie": [
+                            "Encerrada"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "à espera de info"
+                        ],
+                        "fish": [
+                            "à espera de info"
+                        ],
+                        "vegie": [
+                            "à espera de info"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-14",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Ervilhas",
+                            "Nabiças"
+                        ],
+                        "meat": [
+                            "Arroz de pato"
+                        ],
+                        "fish": [
+                            "Tentáculos de Pota à Lagareiro c/batatas a murro"
+                        ],
+                        "diet": [
+                            "Cozido Simples (arroz e batata cozida)"
+                        ],
+                        "vegie": [
+                            "Massa de legumes gratinada"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Juliana de legumes",
+                            "Penca com nabo"
+                        ],
+                        "meat": [
+                            "Feijoada à Transmontana c/ arroz"
+                        ],
+                        "fish": [
+                            "Salmão à Rosa do Adro com arroz de legumes"
+                        ],
+                        "diet": [
+                            "Badejo assado ao natural com arroz"
+                        ],
+                        "vegie": [
+                            "Crepes de legumes com arroz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Encerrada"
+                        ],
+                        "meat": [
+                            "Encerrada"
+                        ],
+                        "fish": [
+                            "Encerrada"
+                        ],
+                        "vegie": [
+                            "Encerrada"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "à espera de info"
+                        ],
+                        "fish": [
+                            "à espera de info"
+                        ],
+                        "vegie": [
+                            "à espera de info"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-13",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Caldo verde",
+                            "Grão com espinafres"
+                        ],
+                        "meat": [
+                            "Panadinhos de frango com arroz de cenoura"
+                        ],
+                        "fish": [
+                            "Perca assada no forno com batatinha assada"
+                        ],
+                        "diet": [
+                            "Carne vaca estufª simp. c/ervilhas e esparguete"
+                        ],
+                        "vegie": [
+                            "Quiche de legumes c/ arroz de cenoura"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Alho francês",
+                            "Feijão verde"
+                        ],
+                        "meat": [
+                            "Rojões à Portuguesa (arroz e batata frita-cubos)"
+                        ],
+                        "fish": [
+                            "Tintureira com molho de marisco e puré"
+                        ],
+                        "diet": [
+                            "Salmão grelhado com batata cozida"
+                        ],
+                        "vegie": [
+                            "Jardineira de soja com forma de arroz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Encerrada"
+                        ],
+                        "meat": [
+                            "Encerrada"
+                        ],
+                        "fish": [
+                            "Encerrada"
+                        ],
+                        "vegie": [
+                            "Encerrada"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "à espera de info"
+                        ],
+                        "fish": [
+                            "à espera de info"
+                        ],
+                        "vegie": [
+                            "à espera de info"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-08-12",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Grão com espinafres",
+                            "Alho francês"
+                        ],
+                        "meat": [
+                            "Francesinha com batata frita"
+                        ],
+                        "fish": [
+                            "Peixe à Gomes de Sá"
+                        ],
+                        "diet": [
+                            "Frango estufado simples com puré"
+                        ],
+                        "vegie": [
+                            "Pimentos recheados com legumes, com arroz"
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "Legumes com cogumelos",
+                            "Brócolos e cenoura"
+                        ],
+                        "meat": [
+                            "Lombo de porco assado com batatinha assada"
+                        ],
+                        "fish": [
+                            "Bacalhau à Lavrador com arroz de pimentos"
+                        ],
+                        "diet": [
+                            "Carapau grelhado com batata cozida"
+                        ],
+                        "vegie": [
+                            "Pizza de legumes"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Encerrada"
+                        ],
+                        "meat": [
+                            "Encerrada"
+                        ],
+                        "fish": [
+                            "Encerrada"
+                        ],
+                        "vegie": [
+                            "Encerrada"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "à espera de info"
+                        ],
+                        "fish": [
+                            "à espera de info"
+                        ],
+                        "vegie": [
+                            "à espera de info"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2019-08-11",
         "locations": [
             {
