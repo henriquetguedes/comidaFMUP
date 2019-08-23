@@ -19,7 +19,7 @@ while i < len(teste):
     lele = str(teste[i])
     lele = lele.split("SOSOS")
     teste[i] = lele
-    #print(teste[i])
+    print(teste[i])
     i += 1
 
 for j in range(0, 7):
@@ -71,6 +71,6 @@ for i in range(0, 7):
             menu[7 * i + 2 + k][1] = texto[i + 1][k + 1][3].lstrip()
 
 ### OUTPUT
-with open("output.csv", "w+", newline='') as my_csv:
+with open("output_t.csv", "w+", newline='') as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=';')
     csvWriter.writerows(menu)
