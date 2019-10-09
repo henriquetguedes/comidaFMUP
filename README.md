@@ -12,9 +12,9 @@ Plataforma de apresentação centralizada das ementas de:
 # Próximos passos: 
 ### Webdesign
  * [x] setas de navegação alinhada
- * [ ] favicon/ícone do comidaFMUP
- * [ ] theme-color no head para Chrome em Android
- * [ ] social snippets (open graphs, etc.)
+ * [x] favicon/ícone do comidaFMUP
+ * [x] theme-color no head para Chrome em Android
+ * [x] social snippets (open graphs, etc.)
  * [ ] imagem de dados em ASCII
 
 ### Código
