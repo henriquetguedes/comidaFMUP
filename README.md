@@ -1,19 +1,26 @@
-# comidaFMUP
+<h1 align="center">Comida FMUP</h1>
+<h3 align="center"><a href="https://henriquetguedes.github.io/comidaFMUP/">Disponível aqui</a></h3>
 
-Plataforma de apresentação centralizada das ementas do refeitório do HSJ, cantina da UP, Health Bar, Yellow Bar e restCIM.
+Plataforma de apresentação centralizada das ementas de:
+ 1. Refeitório do HSJ
+ 2. cantina da UP
+ 3. Health Bar
+ 4. Yellow Bar
+ 5. restCIM.
+ 
 
 # Próximos passos: 
-* webdesign
-    * ~~setas de navegação alinhada~~
-    * favicon/ícone do comidaFMUP
-    * theme-color no head para Chrome em Android
-    * social snippets (open graphs, etc.)
-    * imagem de dados em ASCII
+### Webdesign
+ * [x] setas de navegação alinhada
+ * [ ] favicon/ícone do comidaFMUP
+ * [ ] theme-color no head para Chrome em Android
+ * [ ] social snippets (open graphs, etc.)
+ * [ ] imagem de dados em ASCII
 
-* código
-    * mostrar seta para a frente/tras só se houver dados na data alvo
-    * mostrar aviso de falta de dados com possibilidade de retorno, caso haja dados atrás/à frente
+### Código
+ * [ ] mostrar seta para a frente/tras só se houver dados na data alvo
+ * [ ] mostrar aviso de falta de dados com possibilidade de retorno, caso haja dados atrás/à frente
 
-* dados
-    * ~~construtor de JSON a partir da tabela~~
-    * upload automático para o servidor
+### Dados
+ * [x] construtor de JSON a partir da tabela
+ * [ ] upload automático para o servidor
