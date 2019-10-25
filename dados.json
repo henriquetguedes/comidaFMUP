@@ -1,5 +1,647 @@
 [
     {
+        "date": "2019-11-03",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-11-02",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-11-01",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "FERIADO"
+                        ],
+                        "meat": [
+                            "FERIADO"
+                        ],
+                        "fish": [
+                            "FERIADO"
+                        ],
+                        "vegie": [
+                            "FERIADO"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "FERIADO"
+                        ],
+                        "fish": [
+                            "FERIADO"
+                        ],
+                        "vegie": [
+                            "FERIADO"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-10-31",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Penca e feijão vermelho"
+                        ],
+                        "meat": [
+                            "Strogonoff de porco com arroz de macedónia"
+                        ],
+                        "fish": [
+                            "Pescada com grelos, broa e batata no forno"
+                        ],
+                        "vegie": [
+                            "Caril de seitan e legumens com arroz de macedónia"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "Bife de frango grelhado com arroz de ervilhas"
+                        ],
+                        "fish": [
+                            "Peixe à Brás"
+                        ],
+                        "vegie": [
+                            "Pataniscas de legumes"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-10-30",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Legumes 4 estações (macedónia e nabos)"
+                        ],
+                        "meat": [
+                            "Massa com feijão à lavrador (carne de novilho)"
+                        ],
+                        "fish": [
+                            "Badejo de escabeche com puré de 3 legumes"
+                        ],
+                        "vegie": [
+                            "Soja à Camponesa com arroz de couves"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "Carne de porco à Alentejana"
+                        ],
+                        "fish": [
+                            "Salmão no forno com puré de batata"
+                        ],
+                        "vegie": [
+                            "Massa de legumes gratinada"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-10-29",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Creme de abóbora e feijão-verde"
+                        ],
+                        "meat": [
+                            "Espetada de porco no forno com arroz de cogumelos"
+                        ],
+                        "fish": [
+                            "Potas grelhadas com batata a murro"
+                        ],
+                        "vegie": [
+                            "Espaguete salteado com tofu, aipo e cenoura"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "Perna de frango assada com arroz alegre"
+                        ],
+                        "fish": [
+                            "Filetes de pescada em cama de pegumes"
+                        ],
+                        "vegie": [
+                            "Omeleta de legumes"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "date": "2019-10-28",
+        "locations": [
+            {
+                "name": "Refeitório HSJ",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ],
+                        "opti": [
+                            ""
+                        ]
+                    },
+                    {
+                        "name": "Jantar",
+                        "soup": [
+                            "",
+                            ""
+                        ],
+                        "meat": [
+                            ""
+                        ],
+                        "fish": [
+                            ""
+                        ],
+                        "diet": [
+                            ""
+                        ],
+                        "vegie": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cantina UP",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "Couve-flor, brócolos e feijão branco"
+                        ],
+                        "meat": [
+                            "Frango assado com molho à Bairrada com batata frita palha"
+                        ],
+                        "fish": [
+                            "Arroz seco de marisco"
+                        ],
+                        "vegie": [
+                            "Chili de feijão branco com legumes com arroz"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Health Bar",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "soup": [
+                            "O Health"
+                        ],
+                        "meat": [
+                            "optou por"
+                        ],
+                        "fish": [
+                            "não divulgar"
+                        ],
+                        "vegie": [
+                            "É uma pena"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Yellow Bar & restCIM",
+                "meals": [
+                    {
+                        "name": "Almoço",
+                        "meat": [
+                            "Strogonoff de novilho com puré de batata"
+                        ],
+                        "fish": [
+                            "Bacalhau com natas"
+                        ],
+                        "vegie": [
+                            "Chamuças de legumes"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "date": "2019-10-27",
         "locations": [
             {
