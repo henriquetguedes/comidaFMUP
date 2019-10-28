@@ -15,7 +15,7 @@ Plataforma de apresentação centralizada das ementas de:
  * [x] favicon/ícone do comidaFMUP
  * [x] theme-color no head para Chrome em Android
  * [x] social snippets (open graphs, etc.)
- * [ ] imagem de dados em ASCII
+ * [x] imagem de dados em ASCII
 
 ### Código
  * [ ] mostrar seta para a frente/tras só se houver dados na data alvo
