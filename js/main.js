@@ -28,6 +28,20 @@ function setab() {
     });
 };
 
+function ultimo(){
+    var refis
+    $.getJSON("dados.json", function(json) {
+        refis = json[0].date
+        var datah = moment(refis).format("YYYY-MM-DD")
+        $.ajax({
+            url: "dados.json",
+            success: (data) => { handleMeals(data, datah) },
+
+        });
+    });
+    
+};
+
 function verdata() {
     var datah = document.getElementById("calendas").value;
     $.ajax({

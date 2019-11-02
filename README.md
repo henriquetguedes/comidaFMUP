@@ -19,7 +19,7 @@ Plataforma de apresentação centralizada das ementas de:
 
 ### Código
  * [ ] mostrar seta para a frente/tras só se houver dados na data alvo
- * [ ] mostrar aviso de falta de dados com possibilidade de retorno, caso haja dados atrás/à frente
+ * [x] mostrar aviso de falta de dados com possibilidade de retorno, caso haja dados atrás/à frente
 
 ### Dados
  * [x] construtor de JSON a partir da tabela
