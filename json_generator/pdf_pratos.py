@@ -2,10 +2,7 @@ from tika import parser
 import re
 import csv
 
-menu = [["" for k in range(4)] for w in range(49)]
-
-###Sopas s.joao
-
+menu = [["" for k in range(5)] for w in range(49)]
 
 ###Prato s. joao
 
@@ -35,21 +32,21 @@ while j < len(texto):
     i = 0
     while i < len(texto[j]):
         texto[j][i] = texto[j][i].splitlines()
-        #print(str(i),"\n")
-        #print(texto[j][i][2])
         i += 1
     j += 1
 
-#for i in range(0,len(texto[1])):
-#    print(texto[1][i])
-
-for i in range(0, 7):
-    for k in range(0, 5):
-        if texto[i + 1][k + 1][3].lstrip() != "":
-            menu[7 * i + 2 + k][0] = texto[i + 1][k + 1][2].lstrip()
-            menu[7 * i + 2 + k][1] = texto[i + 1][k + 1][3].lstrip()
+for i in range(1, len(texto)):
+    for j in range(1, len(texto[i])):
+        k = 0
+        for l in range(0, len(texto[i][j])):
+            if len(texto[i][j][l]) > 2:
+                if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
+                    #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
+                    #print(texto[i][j][l].lstrip())
+                    menu[7 * (i-1) + j+1][k] = texto[i][j][l].lstrip()
+                    k += 1
 
 ### OUTPUT
-with open("output_p.csv", "w+", newline='') as my_csv:
-    csvWriter = csv.writer(my_csv, delimiter=';')
-    csvWriter.writerows(menu)
+#with open("output_p.csv", "w+", newline='') as my_csv:
+ #   csvWriter = csv.writer(my_csv, delimiter=';')
+  #  csvWriter.writerows(menu)

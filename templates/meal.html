@@ -21,25 +21,25 @@
                 <h6>Sopas</h6>
                 <ul>
                     {{#soup}}
-                    <li>{{.}}</li>
+                    <li><strong>{{.}}</strong></li>
                     {{/soup}}
                 </ul>
                 <h6>Pratos</h6>
                 <ul>
                     {{#meat}}
-                    <li>Carne: {{.}}</li>
+                    <li><i>Carne:</i> <strong>{{.}}</strong></li>
                     {{/meat}}
                     {{#fish}}
-                    <li>Peixe: {{.}}</li>
+                    <li><i>Peixe:</i> <strong>{{.}}</strong></li>
                     {{/fish}}
                     {{#diet}}
-                    <li>Dieta: {{.}}</li>
+                    <li><i>Dieta:</i> <strong>{{.}}</strong></li>
                     {{/diet}}
                     {{#opti}}
-                    <li>Opção: {{.}}</li>
+                    <li><i>Opção:</i> <strong>{{.}}</strong></li>
                     {{/opti}}
                     {{#vegie}}
-                    <li>Vegetariano: {{.}}</li>
+                    <li><i>Vegetariano:</i> <strong>{{.}}</strong></li>
                     {{/vegie}}
                 </ul>
                 {{/meals}}

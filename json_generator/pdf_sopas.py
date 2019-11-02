@@ -2,33 +2,30 @@ from tika import parser
 import re
 import csv
 
-menu = [["" for k in range(4)] for w in range(49)]
+menu = [["" for k in range(5)] for w in range(49)]
 
 ###Sopas s.joao
-raw = parser.from_file('sopas.pdf')
-teste = raw['content']
+with open("sopas.txt", "r") as myfile:
+    teste = myfile.read()
+
 teste = teste.lstrip()
 teste = teste.rstrip()
-teste = teste.replace("\n\n", "\n")
-teste = teste.replace(" Sopa Legumes passada ", "SOSOS")
-teste = teste.replace(" Sopa Legumes ", "SOSOS")
-teste = teste.splitlines()
+teste = teste.split("ALMOÇO")
+for i in range(1, len(teste)):
+    teste[i] = teste[i].replace(" Sopa Legumes passada","SOSOSO")
+    teste[i] = teste[i].replace(" Sopa Legumes","SOSOSO")    
+    teste[i] = teste[i].split("SOSOSO")
+    for j in range(0,len(teste[i])):
+        teste[i][j] = teste[i][j].splitlines()
+        #print(teste[i][j])
 
-i = 0
-while i < len(teste):
-    lele = str(teste[i])
-    lele = lele.split("SOSOS")
-    teste[i] = lele
-    print(teste[i])
-    i += 1
+for i in range(1,8):
+    menu[7*(i-1)][0] = teste[i][0][4]
+    menu[7*(i-1)][1] = teste[i][1][1]
+    menu[7*(i-1) + 1][0] = teste[i][1][3]
+    menu[7*(i-1) + 1][1] = teste[i][2][1]
 
-for j in range(0, 7):
-    menu[7 * j][0] = teste[3 * j + 1][0]
-    menu[7 * j][1] = teste[3 * j + 1][1]
-    menu[7 * j + 1][0] = teste[3 * j + 2][0]
-    menu[7 * j + 1][1] = teste[3 * j + 2][1]
-
-###Prato s. joao
+#print(menu)
 
 ### OUTPUT
 with open("output_s.csv", "w+", newline='') as my_csv:
