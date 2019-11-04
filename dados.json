@@ -8,42 +8,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Penca",
-                            "Juliana de legumes"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Carne de vaca à fatia c/m. de cogumelos e esparguete"
+                            "Fêvera grelhada com m. de cogumelos e puré"
                         ],
                         "fish": [
-                            "Marmotinhas fritas c/arroz de tomate"
+                            "Potas estufadas com arroz"
                         ],
                         "diet": [
-                            "Robalo grelhado c/batata cozida"
+                            "Truta grelhada com batata cozida"
                         ],
                         "vegie": [
-                            "Tofu à Parmegiana com arroz"
+                            "Bolonhesa de soja com esparguete"
                         ],
                         "opti": [
-                            "Arroz à Valenciana"
+                            "Trouxas de atum com arroz"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Lavrador",
-                            "Abóbora e ervilhas"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Costeletas à Espanhola com arroz"
+                            "Rolo de carne recheado com espinafres, c/arroz"
                         ],
                         "fish": [
-                            "Croquetes de atum com arroz"
+                            "Medalhões de peixe (pescada) panados com puré"
                         ],
                         "diet": [
-                            "Escalopes de frango grelhados c/esparguete"
+                            "Frango assado ao natural com arroz de legumes"
                         ],
                         "vegie": [
-                            "Lasanha de Legumes"
+                            "Pataniscas de legumes com arroz"
                         ]
                     }
                 ]
@@ -59,42 +59,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Juliana de legumes",
-                            "Penca"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Frango assado com batata assada"
+                            "Macarronete de carne de vaca c/cenoura-rodelas"
                         ],
                         "fish": [
-                            "Medalhões de pescada c/ molho de camarão e puré"
+                            "Corvina assada com broa e batatinha assada"
                         ],
                         "diet": [
-                            "Costeleta grelhada com fusilli"
+                            "Escalopes de frango grelhados com fusilli"
                         ],
                         "vegie": [
-                            "Alho Francês à Brás"
+                            "Omolete de cogumelos com arroz"
                         ],
                         "opti": [
-                            "Raia dourada com arroz"
+                            "Peru estufado com esparguete"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Abóbora com lombarda",
-                            "Feijão verde e cenoura raspada"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Rojões com arroz e batata frita"
+                            "Churrasquinho de carnes c/arroz e batata pala"
                         ],
                         "fish": [
-                            "Red fish assado com batata assada"
+                            "Espetadas de peixe (salmão/tintureira) c//batata cozida"
                         ],
                         "diet": [
-                            "Solha grelhada com arroz de ervilhas"
+                            "Pescada cozida com batata cozida"
                         ],
                         "vegie": [
-                            "Omelete de Cogumelos c/ arroz"
+                            "Tarte de legumes c/ forma de arroz"
                         ]
                     }
                 ]
@@ -110,42 +110,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Espinafres e cenoura",
-                            "Alho francês com nabo"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Perna de porco assada com batata corada e arroz"
+                            "Naco de porco à Mirandesa com batatas a murro"
                         ],
                         "fish": [
-                            "Paloco Espiritual"
+                            "Peixe (pescada) à Brás"
                         ],
                         "diet": [
-                            "Pescada estufada simples com arroz de tomate"
+                            "Red-fish assado ao nat. c/bat. assada ao natural"
                         ],
                         "vegie": [
-                            "Croquetes de espinafres e cenoura c/esparguete"
+                            "Tofu à Parmegiana com arroz"
                         ],
                         "opti": [
-                            "Coelho à Caçador (com arroz)"
+                            "Raia com molho Pitáu e batata cozida"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Cenoura e brócolos",
-                            "Brócolos e cenoura"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Esparguete à Bolonhesa"
+                            "Acepipes variados com arroz alegre"
                         ],
                         "fish": [
-                            "Tentáculos de pota panados c/arroz de potas"
+                            "Paloco com natas"
                         ],
                         "diet": [
-                            "Cozido Simples (arroz e batata cozida)"
+                            "Costeleta grelhada com arroz"
                         ],
                         "vegie": [
-                            "Empadas de legumes com arroz"
+                            "Caril de grão e couve lombarda, c/forma de arroz"
                         ]
                     }
                 ]
@@ -218,42 +218,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Caldo verde",
-                            "Lombarda com cenoura raspada"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Massa à Lavrador"
+                            "Novilho assado com batatinha assada e arroz"
                         ],
                         "fish": [
-                            "Filetes dourados com arroz"
+                            "Filetes de pescada c/arroz de tomate malandrinho"
                         ],
                         "diet": [
-                            "Bife de peru grelhado com arroz de cenoura"
+                            "Solha grelhada com salada russa"
                         ],
                         "vegie": [
-                            "Pimentos recheados c/leg e soja, gratinados, c/arroz"
+                            "Croquetes de cenoura com arroz"
                         ],
                         "opti": [
-                            "Badejo no forno com batata assada"
+                            "Empadão de carnes guarnecido"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Penca com nabos",
-                            "Nabiças"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Churrasquinho com arroz e batata pala"
+                            "Shoarma com arroz e batata pala"
                         ],
                         "fish": [
-                            "Rissóis de pescada com arroz alegre"
+                            "Pescada à Moda de Braga c/batata pala e arroz"
                         ],
                         "diet": [
-                            "Salmão grelhado com batata cozida"
+                            "Bife de peru estufado simples com laços"
                         ],
                         "vegie": [
-                            "Caril Vegetariano c/ arroz"
+                            "Almofadinhas de legumes com arroz"
                         ]
                     }
                 ]
@@ -326,42 +326,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Ervilhas",
-                            "Lavrador"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Grelhada mista com arroz e batata pala"
+                            "Feijoada à Transmontana c/ arroz"
                         ],
                         "fish": [
-                            "Arroz de marisco"
+                            "Salmão à Rosa do Adro com arroz de legumes"
                         ],
                         "diet": [
-                            "Carapau grelhado com batata cozida"
+                            "Badejo assado ao natural com arroz"
                         ],
                         "vegie": [
-                            "Pataniscas de feijão verde com arroz"
+                            "Massa de legumes gratinada"
                         ],
                         "opti": [
-                            "Almofadinhas de alheira e espinafres com arroz"
+                            "Peixe espada grelhado com batata cozida"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Camponesa",
-                            "Primavera"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Arroz de frango"
+                            "Arroz de pato"
                         ],
                         "fish": [
-                            "Rolinhos de pescada recheados e bat. assada"
+                            "Tentáculos de Pota à Lagareiro c/batatas a murro"
                         ],
                         "diet": [
-                            "Costeleta de porco grelhada com arroz"
+                            "Cozido Simples (arroz e batata cozida)"
                         ],
                         "vegie": [
-                            "Jardineira de Legumes c/ arroz"
+                            "Crepes de legumes com arroz"
                         ]
                     }
                 ]
@@ -434,42 +434,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Couve lombarda",
-                            "Abóbora e couve flor"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Novilho à fatia com cenoura e arroz"
+                            "Panadinhos de frango com arroz de cenoura"
                         ],
                         "fish": [
-                            "Pastéis de bacalhau c/arroz de feijão malandrinho"
+                            "Perca assada no forno com batatinha assada"
                         ],
                         "diet": [
-                            "Peru estufado simples com fusilli de cenoura"
+                            "Salmão grelhado com batata cozida"
                         ],
                         "vegie": [
-                            "Pizza Vegetariana"
+                            "Jardineira de soja com forma de arroz"
                         ],
                         "opti": [
-                            "Corvina no forno com batata assada"
+                            "Folhados de carne com arroz de legumes"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Creme de abóbora com espinafres e massinhas",
-                            "Abóbora com lombarda"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Bifes de peru enrolados c/bacon e arroz"
+                            "Rojões à Portuguesa (arroz)"
                         ],
                         "fish": [
-                            "Badejo frito c/cebolada, arroz e batata pala"
+                            "Tintureira com molho de marisco e puré"
                         ],
                         "diet": [
-                            "Pescada grelhada com salada russa"
+                            "Carne vaca estufª simp. c/ervilhas e esparguete"
                         ],
                         "vegie": [
-                            "Hambúrguer de grão de bico c/arroz"
+                            "Quiche de legumes c/ arroz de cenoura"
                         ]
                     }
                 ]
@@ -542,42 +542,42 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "Creme de cenoura c/feijão verde",
-                            "spa de espinafres"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Rolo de carnes c/queijo e fiambre, arroz e batatinha ass"
+                            "Lombo de porco assado com batatinha assada"
                         ],
                         "fish": [
-                            "Potas estufadas com puré"
+                            "Bacalhau à Lavrador com arroz de pimentos"
                         ],
                         "diet": [
-                            "Fêvera grelhada com esparguete"
+                            "Carapau grelhado com batata cozida"
                         ],
                         "vegie": [
-                            "Bolinhas de feijão frade com arroz"
+                            "Pizza de legumes"
                         ],
                         "opti": [
-                            "Pescada à Bulhão Pato com arroz"
+                            "Petinga frita com arroz de feijão"
                         ]
                     },
                     {
                         "name": "Jantar",
                         "soup": [
-                            "Couve com cenoura e nabo",
-                            "Nabo, cenoura e alho francês"
+                            "",
+                            ""
                         ],
                         "meat": [
-                            "Lombo de porco assado com arroz branco"
+                            "Francesinha com batata pala"
                         ],
                         "fish": [
-                            "Caldeirada de peixes"
+                            "Peixe à Gomes de Sá"
                         ],
                         "diet": [
-                            "Linguado grelh c/m. limão e alho e bat ensalsada"
+                            "Frango estufado simples com puré"
                         ],
                         "vegie": [
-                            "Massa gratinada c/molho branco, legumese soja"
+                            "Pimentos recheados com legumes, com arroz"
                         ]
                     }
                 ]
