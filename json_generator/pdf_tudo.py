@@ -2,11 +2,12 @@ from tika import parser
 import re
 import csv
 import io
+import pandas
 import os
 
 menu = [["" for k in range(5)] for w in range(49)]
 
-###Sopas s.joao
+# Sopas s.joao
 if os.path.isfile('./sopas.txt'):
     with open("sopas.txt", "r") as myfile:
         teste = myfile.read()
@@ -20,13 +21,21 @@ if os.path.isfile('./sopas.txt'):
         teste[i] = teste[i].split("SOSOSO")
         for j in range(0, len(teste[i])):
             teste[i][j] = teste[i][j].splitlines()
-            #print(teste[i][j])
+            # print(teste[i][j])
 
     for i in range(1, 8):
         menu[7 * (i - 1)][0] = teste[i][0][4]
         menu[7 * (i - 1)][1] = teste[i][1][1]
         menu[7 * (i - 1) + 1][0] = teste[i][1][3]
         menu[7 * (i - 1) + 1][1] = teste[i][2][1]
+elif os.path.isfile('./sopas.xlsx'):
+    teste = pandas.ExcelFile('sopas.xlsx')
+    folha = pandas.read_excel(teste, 0)
+    for i in range(1, 8):
+        menu[7 * (i - 1)][0] = folha.iloc[3*i+2][1]
+        menu[7 * (i - 1)][1] = folha.iloc[3*i+2][3]
+        menu[7 * (i - 1) + 1][0] = folha.iloc[3*i+3][1]
+        menu[7 * (i - 1) + 1][1] = folha.iloc[3*i+3][3]
 
 ###Prato s. joao
 if os.path.isfile('./pratos.txt'):

@@ -8,8 +8,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Curgete com alho francês",
+                            "Abóboracom feijão verde"
                         ],
                         "meat": [
                             "Fêvera grelhada com m. de cogumelos e puré"
@@ -30,8 +30,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Feijão manteiga couve e cenoura",
+                            "Juliana de legumes"
                         ],
                         "meat": [
                             "Rolo de carne recheado com espinafres, c/arroz"
@@ -59,8 +59,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Creme de abóbora com cenoura",
+                            "Caldo verde"
                         ],
                         "meat": [
                             "Macarronete de carne de vaca c/cenoura-rodelas"
@@ -81,8 +81,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Espinafres",
+                            "Lombarda"
                         ],
                         "meat": [
                             "Churrasquinho de carnes c/arroz e batata pala"
@@ -110,8 +110,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Brócolos com nabo e cenoura",
+                            "Repolho"
                         ],
                         "meat": [
                             "Naco de porco à Mirandesa com batatas a murro"
@@ -132,8 +132,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Feijão verde laminado",
+                            "Espinafres"
                         ],
                         "meat": [
                             "Acepipes variados com arroz alegre"
@@ -218,8 +218,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Penca com feijão vermelho",
+                            "Brócolos"
                         ],
                         "meat": [
                             "Novilho assado com batatinha assada e arroz"
@@ -240,8 +240,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Abóbora com lombarda",
+                            "Alho francês e cenoura"
                         ],
                         "meat": [
                             "Shoarma com arroz e batata pala"
@@ -326,8 +326,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Ervilhas",
+                            "Nabiças"
                         ],
                         "meat": [
                             "Feijoada à Transmontana c/ arroz"
@@ -348,8 +348,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Juliana de legumes",
+                            "Penca com nabo"
                         ],
                         "meat": [
                             "Arroz de pato"
@@ -434,8 +434,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Caldo verde",
+                            "Grão com espinafres"
                         ],
                         "meat": [
                             "Panadinhos de frango com arroz de cenoura"
@@ -456,8 +456,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Alho francês",
+                            "Feijão verde"
                         ],
                         "meat": [
                             "Rojões à Portuguesa (arroz)"
@@ -542,8 +542,8 @@
                     {
                         "name": "Almoço",
                         "soup": [
-                            "",
-                            ""
+                            "Grão com espinafres",
+                            "Alho francês"
                         ],
                         "meat": [
                             "Lombo de porco assado com batatinha assada"
@@ -564,8 +564,8 @@
                     {
                         "name": "Jantar",
                         "soup": [
-                            "",
-                            ""
+                            "Legumes com cogumelos",
+                            "Brócolos e cenoura"
                         ],
                         "meat": [
                             "Francesinha com batata pala"
