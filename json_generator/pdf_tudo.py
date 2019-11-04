@@ -2,138 +2,140 @@ from tika import parser
 import re
 import csv
 import io
+import os
 
 menu = [["" for k in range(5)] for w in range(49)]
 
 ###Sopas s.joao
-with open("sopas.txt", "r") as myfile:
-    teste = myfile.read()
+if os.path.isfile('./sopas.txt'):
+    with open("sopas.txt", "r") as myfile:
+        teste = myfile.read()
 
-teste = teste.lstrip()
-teste = teste.rstrip()
-teste = teste.split("ALMOÇO")
-for i in range(1, len(teste)):
-    teste[i] = teste[i].replace(" Sopa Legumes passada", "SOSOSO")
-    teste[i] = teste[i].replace(" Sopa Legumes", "SOSOSO")
-    teste[i] = teste[i].split("SOSOSO")
-    for j in range(0, len(teste[i])):
-        teste[i][j] = teste[i][j].splitlines()
-        #print(teste[i][j])
+    teste = teste.lstrip()
+    teste = teste.rstrip()
+    teste = teste.split("ALMOÇO")
+    for i in range(1, len(teste)):
+        teste[i] = teste[i].replace(" Sopa Legumes passada", "SOSOSO")
+        teste[i] = teste[i].replace(" Sopa Legumes", "SOSOSO")
+        teste[i] = teste[i].split("SOSOSO")
+        for j in range(0, len(teste[i])):
+            teste[i][j] = teste[i][j].splitlines()
+            #print(teste[i][j])
 
-for i in range(1, 8):
-    menu[7 * (i - 1)][0] = teste[i][0][4]
-    menu[7 * (i - 1)][1] = teste[i][1][1]
-    menu[7 * (i - 1) + 1][0] = teste[i][1][3]
-    menu[7 * (i - 1) + 1][1] = teste[i][2][1]
+    for i in range(1, 8):
+        menu[7 * (i - 1)][0] = teste[i][0][4]
+        menu[7 * (i - 1)][1] = teste[i][1][1]
+        menu[7 * (i - 1) + 1][0] = teste[i][1][3]
+        menu[7 * (i - 1) + 1][1] = teste[i][2][1]
 
 ###Prato s. joao
+if os.path.isfile('./pratos.txt'):
+    with open("pratos.txt", "r") as myfile:
+        texto = myfile.read()
 
-with open("pratos.txt", "r") as myfile:
-    texto = myfile.read()
+    texto = texto.replace("Segunda", "SOSOSO")
+    texto = texto.replace("Terça", "SOSOSO")
+    texto = texto.replace("Quarta", "SOSOSO")
+    texto = texto.replace("Quinta", "SOSOSO")
+    texto = texto.replace("Sexta", "SOSOSO")
+    texto = texto.replace("Sábado", "SOSOSO")
+    texto = texto.replace("Domingo", "SOSOSO")
 
-texto = texto.replace("Segunda", "SOSOSO")
-texto = texto.replace("Terça", "SOSOSO")
-texto = texto.replace("Quarta", "SOSOSO")
-texto = texto.replace("Quinta", "SOSOSO")
-texto = texto.replace("Sexta", "SOSOSO")
-texto = texto.replace("Sábado", "SOSOSO")
-texto = texto.replace("Domingo", "SOSOSO")
+    texto = texto.split("SOSOSO")
 
-texto = texto.split("SOSOSO")
+    j = 0
+    while j < len(texto):
+        texto[j] = texto[j].replace("CARNE", "BLABLAB")
+        texto[j] = texto[j].replace("PEIXE", "BLABLAB")
+        texto[j] = texto[j].replace("DIETA", "BLABLAB")
+        texto[j] = texto[j].replace("OPÇÃO", "BLABLAB")
+        texto[j] = texto[j].replace("VEGET.", "BLABLAB")
 
-j = 0
-while j < len(texto):
-    texto[j] = texto[j].replace("CARNE", "BLABLAB")
-    texto[j] = texto[j].replace("PEIXE", "BLABLAB")
-    texto[j] = texto[j].replace("DIETA", "BLABLAB")
-    texto[j] = texto[j].replace("OPÇÃO", "BLABLAB")
-    texto[j] = texto[j].replace("VEGET.", "BLABLAB")
+        texto[j] = texto[j].split("BLABLAB")
 
-    texto[j] = texto[j].split("BLABLAB")
+        i = 0
+        while i < len(texto[j]):
+            texto[j][i] = texto[j][i].splitlines()
+            i += 1
+        j += 1
 
-    i = 0
-    while i < len(texto[j]):
-        texto[j][i] = texto[j][i].splitlines()
-        i += 1
-    j += 1
-
-for i in range(1, len(texto)):
-    for j in range(1, len(texto[i])):
-        k = 0
-        for l in range(0, len(texto[i][j])):
-            if len(texto[i][j][l]) > 2:
-                if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
-                    #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
-                    #print(texto[i][j][l].lstrip())
-                    menu[7 * (i-1) + j+1][k] = texto[i][j][l].lstrip()
-                    k += 1
+    for i in range(1, len(texto)):
+        for j in range(1, len(texto[i])):
+            k = 0
+            for l in range(0, len(texto[i][j])):
+                if len(texto[i][j][l]) > 2:
+                    if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
+                        #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
+                        #print(texto[i][j][l].lstrip())
+                        menu[7 * (i-1) + j+1][k] = texto[i][j][l].lstrip()
+                        k += 1
 
 ###SASUP
+if os.path.isfile('./sasup.txt'):
+    with open("sasup.txt", "r") as myfile:
+        texto = myfile.read()
 
-with open("sasup.txt", "r") as myfile:
-    texto = myfile.read()
+    texto = texto.replace("NOTAS", "separatsia")
+    texto = texto.split("separatsia")
 
-texto = texto.replace("NOTAS", "separatsia")
-texto = texto.split("separatsia")
+    for i in range(0, len(texto)):
+        texto[i] = texto[i].replace("SOPA", "BLABLAB")
+        texto[i] = texto[i].replace("CARNE", "BLABLAB")
+        texto[i] = texto[i].replace("PESCADO", "BLABLAB")
+        texto[i] = texto[i].replace("VEGETARIANO 1", "BLABLAB")
 
-for i in range(0, len(texto)):
-    texto[i] = texto[i].replace("SOPA", "BLABLAB")
-    texto[i] = texto[i].replace("CARNE", "BLABLAB")
-    texto[i] = texto[i].replace("PESCADO", "BLABLAB")
-    texto[i] = texto[i].replace("VEGETARIANO 1", "BLABLAB")
+        texto[i] = texto[i].split("BLABLAB")
+        for x in range(0, len(texto[i]) - 1):
+            #print(str(texto[x]) +" "+ str(texto[x+1]))
+            texto[i][x] = texto[i][x + 1]
 
-    texto[i] = texto[i].split("BLABLAB")
-    for x in range(0, len(texto[i]) - 1):
-        #print(str(texto[x]) +" "+ str(texto[x+1]))
-        texto[i][x] = texto[i][x + 1]
+    ementa = [[["" for k in range(5)] for j in range(4)] for i in range(4)]
 
-ementa = [[["" for k in range(5)] for j in range(4)] for i in range(4)]
+    for i in range(0, len(texto)):
+        for j in range(0, len(texto[i]) - 1):
+            texto[i][j] = texto[i][j].splitlines()
 
-for i in range(0, len(texto)):
-    for j in range(0, len(texto[i]) - 1):
-        texto[i][j] = texto[i][j].splitlines()
+    cont = 0
+    semana = int(input("que semana de SASUP imprimir?")) - 1
 
-cont = 0
-semana = int(input("que semana de SASUP imprimir?")) - 1
-
-for i in range(0, len(texto)):
-    for j in range(0, len(texto[i])):
-        k = 0
-        for l in range(0, len(texto[i][j])):
-            #print("i= "+ str(i)+" out of "+str(len(texto)))
-            #print("j= "+ str(j)+" out of "+str(len(texto[i]) - 1))
-            #print("l= "+ str(l)+" out of "+str(len(texto[i][j])))
-            if len(texto[i][j][l]) > 2:
-                #print(texto[i][j][l])
-                if texto[i][j][l][0] == " " and texto[i][j][l].lstrip(
-                )[0].isupper():
-                    cont += 1
-                    #print(cont)
+    for i in range(0, len(texto)):
+        for j in range(0, len(texto[i])):
+            k = 0
+            for l in range(0, len(texto[i][j])):
+                #print("i= "+ str(i)+" out of "+str(len(texto)))
+                #print("j= "+ str(j)+" out of "+str(len(texto[i]) - 1))
+                #print("l= "+ str(l)+" out of "+str(len(texto[i][j])))
+                if len(texto[i][j][l]) > 2:
                     #print(texto[i][j][l])
-                    #print("i=" + str(i) + "; j=" + str(j) + "; k=" + str(l))
-                    #print(ementa[i][j][k])
-                    #print(texto[i][j][k])
-                    ementa[i][j][k] = texto[i][j][l].lstrip()
-                    #print("semana " + str(i) + " dia " + str(k) + " prato " + str(j))
-                    #print(texto[i][j][k])
-                    k += 1
+                    if texto[i][j][l][0] == " " and texto[i][j][l].lstrip(
+                    )[0].isupper():
+                        cont += 1
+                        #print(cont)
+                        #print(texto[i][j][l])
+                        #print("i=" + str(i) + "; j=" + str(j) + "; k=" + str(l))
+                        #print(ementa[i][j][k])
+                        #print(texto[i][j][k])
+                        ementa[i][j][k] = texto[i][j][l].lstrip()
+                        #print("semana " + str(i) + " dia " + str(k) + " prato " + str(j))
+                        #print(texto[i][j][k])
+                        k += 1
 
-for dia in range(0, 5):
-    menu[7 * dia][2] = ementa[semana][0][dia]
-    menu[7 * dia + 2][2] = ementa[semana][1][dia]
-    menu[7 * dia + 3][2] = ementa[semana][2][dia]
-    menu[7 * dia + 6][2] = ementa[semana][3][dia]
+    for dia in range(0, 5):
+        menu[7 * dia][2] = ementa[semana][0][dia]
+        menu[7 * dia + 2][2] = ementa[semana][1][dia]
+        menu[7 * dia + 3][2] = ementa[semana][2][dia]
+        menu[7 * dia + 6][2] = ementa[semana][3][dia]
 
 ###EuRest
-###EuRest
-with io.open("rest.txt", 'r', encoding='utf8') as myfile:
-    teste = myfile.read()
-teste = teste.splitlines()
+if os.path.isfile('./rest.txt'):
+    with io.open("rest.txt", 'r', encoding='utf8') as myfile:
+        teste = myfile.read()
+    teste = teste.splitlines()
 
-for i in range(0, 5):
-    menu[7 * i + 2][4] = teste[4 * i + 1]
-    menu[7 * i + 3][4] = teste[4 * i + 2]
-    menu[7 * i + 6][4] = teste[4 * i + 3]
+    for i in range(0, 5):
+        menu[7 * i + 2][4] = teste[4 * i + 1]
+        menu[7 * i + 3][4] = teste[4 * i + 2]
+        menu[7 * i + 6][4] = teste[4 * i + 3]
 
 ### OUTPUT
 with open("output_t.csv", "w+", newline='', encoding='cp1252') as my_csv:
