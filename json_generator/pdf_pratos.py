@@ -31,6 +31,7 @@ while j < len(texto):
 
     i = 0
     while i < len(texto[j]):
+        #print(texto[j][i])
         texto[j][i] = texto[j][i].splitlines()
         i += 1
     j += 1
@@ -43,10 +44,14 @@ for i in range(1, len(texto)):
                 if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
                     #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
                     #print(texto[i][j][l].lstrip())
-                    menu[7 * (i-1) + j+1][k] = texto[i][j][l].lstrip()
+                    if j == 4:
+                        menu[7 * (i-1) + j+1][0] = texto[i][j][l].lstrip()
+                    else:
+                        menu[7 * (i-1) + j+1][1-k] = texto[i][j][l].lstrip()
                     k += 1
 
+#print(menu)
 ### OUTPUT
-#with open("output_p.csv", "w+", newline='') as my_csv:
- #   csvWriter = csv.writer(my_csv, delimiter=';')
-  #  csvWriter.writerows(menu)
+with open("output_p.csv", "w+", newline='') as my_csv:
+    csvWriter = csv.writer(my_csv, delimiter=';')
+    csvWriter.writerows(menu)

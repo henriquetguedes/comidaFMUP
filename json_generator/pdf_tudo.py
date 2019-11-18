@@ -76,7 +76,10 @@ if os.path.isfile('./pratos.txt'):
                     if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
                         #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
                         #print(texto[i][j][l].lstrip())
-                        menu[7 * (i-1) + j+1][k] = texto[i][j][l].lstrip()
+                        if j == 4:
+                            menu[7 * (i-1) + j+1][0] = texto[i][j][l].lstrip()
+                        else:
+                            menu[7 * (i-1) + j+1][1-k] = texto[i][j][l].lstrip()
                         k += 1
 
 ###SASUP
