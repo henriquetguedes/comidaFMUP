@@ -4,6 +4,7 @@ import csv
 import io
 import pandas
 import os
+import json
 
 menu = [["" for k in range(5)] for w in range(49)]
 
@@ -37,7 +38,7 @@ elif os.path.isfile('./sopas.xlsx'):
         menu[7 * (i - 1) + 1][0] = folha.iloc[3*i+3][1]
         menu[7 * (i - 1) + 1][1] = folha.iloc[3*i+3][3]
 
-###Prato s. joao
+# Prato s. joao
 if os.path.isfile('./pratos.txt'):
     with open("pratos.txt", "r") as myfile:
         texto = myfile.read()
@@ -67,22 +68,39 @@ if os.path.isfile('./pratos.txt'):
             texto[j][i] = texto[j][i].splitlines()
             i += 1
         j += 1
+    sentido = int(input("que sentido usar? 0=normal, 1=reverso   "))
+    if sentido == 0:
+        for i in range(1, len(texto)):
+            for j in range(1, len(texto[i])):
+                k = 0
+                for l in range(0, len(texto[i][j])):
+                    if len(texto[i][j][l]) > 2:
+                        if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
+                            #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
+                            # print(texto[i][j][l].lstrip())
+                            if j == 4:
+                                menu[7 * (i-1) + j + 1][0] = texto[i][j][l].lstrip()
+                            else:
+                                menu[7 * (i-1) + j + 1][k] = texto[i][j][l].lstrip()
+                            k += 1
+    elif sentido == 1:
+        for i in range(1, len(texto)):
+            for j in range(1, len(texto[i])):
+                k = 0
+                for l in range(0, len(texto[i][j])):
+                    if len(texto[i][j][l]) > 2:
+                        if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
+                            #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
+                            # print(texto[i][j][l].lstrip())
+                            if j == 4:
+                                menu[7 * (i-1) + j + 1][0] = texto[i][j][l].lstrip()
+                            else:
+                                menu[7 * (i-1) + j+1][1 - k] = texto[i][j][l].lstrip()
+                            k += 1
+    else:
+        print("you fool, só se pode responder 0 ou 1!!!")
 
-    for i in range(1, len(texto)):
-        for j in range(1, len(texto[i])):
-            k = 0
-            for l in range(0, len(texto[i][j])):
-                if len(texto[i][j][l]) > 2:
-                    if texto[i][j][l][0] == " " and texto[i][j][l].lstrip()[0].isupper() and k < 2:
-                        #print("i: " + str(i) + " j: " + str(j) + " k: " + str(k))
-                        #print(texto[i][j][l].lstrip())
-                        if j == 4:
-                            menu[7 * (i-1) + j+1][0] = texto[i][j][l].lstrip()
-                        else:
-                            menu[7 * (i-1) + j+1][1-k] = texto[i][j][l].lstrip()
-                        k += 1
-
-###SASUP
+# SASUP
 if os.path.isfile('./sasup.txt'):
     with open("sasup.txt", "r") as myfile:
         texto = myfile.read()
@@ -108,7 +126,7 @@ if os.path.isfile('./sasup.txt'):
             texto[i][j] = texto[i][j].splitlines()
 
     cont = 0
-    semana = int(input("que semana de SASUP imprimir?")) - 1
+    semana = int(input("que semana de SASUP imprimir?   ")) - 1
 
     for i in range(0, len(texto)):
         for j in range(0, len(texto[i])):
@@ -118,18 +136,18 @@ if os.path.isfile('./sasup.txt'):
                 #print("j= "+ str(j)+" out of "+str(len(texto[i]) - 1))
                 #print("l= "+ str(l)+" out of "+str(len(texto[i][j])))
                 if len(texto[i][j][l]) > 2:
-                    #print(texto[i][j][l])
+                    # print(texto[i][j][l])
                     if texto[i][j][l][0] == " " and texto[i][j][l].lstrip(
                     )[0].isupper():
                         cont += 1
-                        #print(cont)
-                        #print(texto[i][j][l])
+                        # print(cont)
+                        # print(texto[i][j][l])
                         #print("i=" + str(i) + "; j=" + str(j) + "; k=" + str(l))
-                        #print(ementa[i][j][k])
-                        #print(texto[i][j][k])
+                        # print(ementa[i][j][k])
+                        # print(texto[i][j][k])
                         ementa[i][j][k] = texto[i][j][l].lstrip()
                         #print("semana " + str(i) + " dia " + str(k) + " prato " + str(j))
-                        #print(texto[i][j][k])
+                        # print(texto[i][j][k])
                         k += 1
 
     for dia in range(0, 5):
@@ -138,7 +156,7 @@ if os.path.isfile('./sasup.txt'):
         menu[7 * dia + 3][2] = ementa[semana][2][dia]
         menu[7 * dia + 6][2] = ementa[semana][3][dia]
 
-###EuRest
+# EuRest
 if os.path.isfile('./rest.txt'):
     with io.open("rest.txt", 'r', encoding='utf8') as myfile:
         teste = myfile.read()
@@ -149,7 +167,16 @@ if os.path.isfile('./rest.txt'):
         menu[7 * i + 3][4] = teste[4 * i + 2]
         menu[7 * i + 6][4] = teste[4 * i + 3]
 
-### OUTPUT
+# OUTPUT EXCEL
 with open("output_t.csv", "w+", newline='', encoding='cp1252') as my_csv:
     csvWriter = csv.writer(my_csv, delimiter=';')
     csvWriter.writerows(menu)
+# OUTPUT JSON
+datainicio = str(input("qual o primeiro dia da semana, formato AAAA-MM-DD?   "))
+
+cardap = [{'date': datainicio, "locations":[{"name":"Refeitório HSJ", "meals":[]}]}]
+
+
+
+with open('novo.json', 'w') as fp:
+    json.dump(cardap, fp, indent=4)
