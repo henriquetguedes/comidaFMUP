@@ -5,6 +5,8 @@ import io
 import pandas
 import os
 import json
+from datetime import datetime
+from datetime import timedelta
 
 menu = [["" for k in range(5)] for w in range(49)]
 
@@ -174,9 +176,36 @@ with open("output_t.csv", "w+", newline='', encoding='cp1252') as my_csv:
 # OUTPUT JSON
 datainicio = str(input("qual o primeiro dia da semana, formato AAAA-MM-DD?   "))
 
-cardap = [{'date': datainicio, "locations":[{"name":"Refeitório HSJ", "meals":[]}]}]
+cardap = []
+
+for m in range(6,-1,-1):
+    if m < 5:
+        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:19])) + timedelta(days=m)
+        datax = datax.strftime("%Y-%m-%d")
+        cardap = cardap + [{'date': datax, "locations":[\
+            {"name":"Refeitório HSJ", "meals":[\
+            {"name":"Almoço","soup":[menu[7*m+0][0],menu[7*m+1][0]],"meat":[menu[7*m+2][0]],"fish":[menu[7*m+3][0]],"diet":[menu[7*m+4][0]],"vegie":[menu[7*m+6][0]],"opti":[menu[7*m+5][0]]},\
+            {"name":"Jantar","soup":[menu[7*m+0][1],menu[7*m+1][1]],"meat":[menu[7*m+2][1]],"fish":[menu[7*m+3][1]],"diet":[menu[7*m+4][1]],"vegie":[menu[7*m+6][1]]}\
+            ]},\
+            {"name":"Cantina UP", "meals":[\
+            {"name":"Almoço","soup":[menu[7*m+0][2]],"meat":[menu[7*m+2][2]],"fish":[menu[7*m+3][2]],"vegie":[menu[7*m+6][2]]}\
+            ]},\
+            {"name":"Health Bar", "meals":[\
+            {"name":"Almoço","soup":"O HEALTH","meat":"não fornece","fish":"a ementa","vegie":"É uma pena"}\
+            ]},\
+            {"name":"Yellow Bar & restCIM", "meals":[\
+            {"name":"Almoço","meat":[menu[7*m+2][4]],"fish":[menu[7*m+3][4]],"vegie":[menu[7*m+6][4]]}\
+            ]}\
+            ]},]
+    else:
+        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:19])) + timedelta(days=m)
+        datax = datax.strftime("%Y-%m-%d")
+        cardap = cardap + [{'date': datax, "locations":[\
+            {"name":"Refeitório HSJ", "meals":[\
+            {"name":"Almoço","soup":[menu[7*m+0][0],menu[7*m+1][0]],"meat":[menu[7*m+2][0]],"fish":[menu[7*m+3][0]],"diet":[menu[7*m+4][0]],"vegie":[menu[7*m+6][0]],"opti":[menu[7*m+5][0]]},\
+            {"name":"Jantar","soup":[menu[7*m+0][1],menu[7*m+1][1]],"meat":[menu[7*m+2][1]],"fish":[menu[7*m+3][1]],"diet":[menu[7*m+4][1]],"vegie":[menu[7*m+6][1]]}\
+            ]}]}]
 
 
-
-with open('novo.json', 'w') as fp:
-    json.dump(cardap, fp, indent=4)
+with open('novo.json', 'w', encoding='utf-8') as fp:
+    json.dump(cardap, fp, ensure_ascii=False)
