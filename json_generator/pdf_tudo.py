@@ -209,3 +209,11 @@ for m in range(6,-1,-1):
 
 with open('novo.json', 'w', encoding='utf-8') as fp:
     json.dump(cardap, fp, ensure_ascii=False)
+
+with open('../dados.json', encoding='utf-8') as json_file:
+    dataaa = json.load(json_file)
+
+dataaa = cardap + dataaa
+
+with open('../dados.json', 'w', encoding='utf-8') as fp:
+    json.dump(dataaa, fp, ensure_ascii=False)
