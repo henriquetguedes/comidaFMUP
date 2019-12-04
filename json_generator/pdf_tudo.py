@@ -1,4 +1,3 @@
-from tika import parser
 import re
 import csv
 import io
@@ -180,7 +179,7 @@ cardap = []
 
 for m in range(6,-1,-1):
     if m < 5:
-        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:19])) + timedelta(days=m)
+        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:10])) + timedelta(days=m)
         datax = datax.strftime("%Y-%m-%d")
         cardap = cardap + [{'date': datax, "locations":[\
             {"name":"Refeitório HSJ", "meals":[\
@@ -198,7 +197,7 @@ for m in range(6,-1,-1):
             ]}\
             ]},]
     else:
-        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:19])) + timedelta(days=m)
+        datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:10])) + timedelta(days=m)
         datax = datax.strftime("%Y-%m-%d")
         cardap = cardap + [{'date': datax, "locations":[\
             {"name":"Refeitório HSJ", "meals":[\
@@ -212,6 +211,15 @@ with open('novo.json', 'w', encoding='utf-8') as fp:
 
 with open('../dados.json', encoding='utf-8') as json_file:
     dataaa = json.load(json_file)
+
+for n in range(6,-1,-1):
+    datax = datetime(int(datainicio[:4]),int(datainicio[5:7]),int(datainicio[8:10])) + timedelta(days=n)
+    datax = datax.strftime("%Y-%m-%d")
+    for l in range(0, len(dataaa)):
+        if dataaa[l]["date"] == datax:
+            print("Apagado:" + datax)
+            del dataaa[l]
+            break
 
 dataaa = cardap + dataaa
 
