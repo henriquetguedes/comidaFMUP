@@ -1,16 +1,16 @@
 EMENTAS SOPAS REFEITÓRIO 
  
-SEMANA (2) 10 a 16  de Fevereiro  de 2020
+SEMANA (4) : 17 a 23 fevereiro de 2020
  
 ALMOÇO
  Segunda-feira
  JANTAR
  
-Lombarda com feijão e massinhas
+Creme de cenoura c/feijão verde
  Sopa Legumes
- Abóbora com espinafres
+ Couve com cenoura e nabo
  
-Espinafres
+sopa de espinafres
  Sopa Legumes passada
  Nabo, cenoura e alho francês
  
@@ -18,9 +18,9 @@ ALMOÇO
  Terça-feira
  JANTAR
  
-Creme de cenoura com feijão verde
+Couve lombarda
  Sopa Legumes
- Couve com cenoura e nabo
+ Creme de abóbora com espinafres e massinhas
  
 Abóbora e couve flor
  Sopa Legumes passada
@@ -30,7 +30,7 @@ ALMOÇO
  Quarta-feira
  JANTAR
  
-Creme de brócolos
+Ervilhas
  Sopa Legumes
  Camponesa
  
@@ -44,7 +44,7 @@ ALMOÇO
  
 Caldo verde
  Sopa Legumes
- Penca
+ Penca com nabos
  
 Lombarda com cenoura raspada
  Sopa Legumes passada
@@ -54,9 +54,9 @@ ALMOÇO
  Sexta-feira
  JANTAR
  
-Juliana de legumes
+Espinafres e cenoura
  Sopa Legumes
- Brócolos
+ Cenoura e brócolos
  
 Alho francês com nabo
  Sopa Legumes passada
@@ -66,9 +66,9 @@ ALMOÇO
  Sábado
  JANTAR
  
-Espinafres e cenoura
+Juliana de legumes
  Sopa Legumes
- Puré de nabo com cenoura e alho francês
+ Abóbora com lombarda
  
 Penca
  Sopa Legumes passada
@@ -78,15 +78,15 @@ ALMOÇO
  Domingo
  JANTAR
  
-Lavrador
+Penca
  Sopa Legumes
- Couve  
+ Lavrador
  
 Juliana de legumes
  Sopa Legumes passada
  Abóbora e ervilhas
  
-cid:image002.jpg@01CEDA37.DA7A07D0
+http://intranet/dq/PublishingImages/Nutri%C3%A7%C3%A3o.jpg
 
 
 
