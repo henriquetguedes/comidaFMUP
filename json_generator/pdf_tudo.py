@@ -120,32 +120,35 @@ if os.path.isfile('./sasup.txt'):
             #print(str(texto[x]) +" "+ str(texto[x+1]))
             texto[i][x] = texto[i][x + 1]
 
-    ementa = [[["" for k in range(5)] for j in range(4)] for i in range(4)]
+    #aqui, texto é uma matriz n2 com x semanas e y tipos de refeição. em cada celula, é suposto haver 5 linhas (1/dia da semana) desse tipo de refeição na respectiva semana
+
+    ementa = [[["" for k in range(5)] for j in range(4)] for i in range(5)]
 
     for i in range(0, len(texto)):
         for j in range(0, len(texto[i]) - 1):
             texto[i][j] = texto[i][j].splitlines()
-
+    #aqui, texto é matriz n3, em que a 3 dimensão diz respeito ao dia dentro da semana
     cont = 0
     semana = int(input("que semana de SASUP imprimir?   ")) - 1
 
-    for i in range(0, len(texto)):
-        for j in range(0, len(texto[i])):
+    for i in range(0, len(texto)): #para cada semana
+        for j in range(0, len(texto[i])): #para cada tipo de comida
             k = 0
-            for l in range(0, len(texto[i][j])):
+            for l in range(0, len(texto[i][j])): #para cada dia na semana
                 #print("i= "+ str(i)+" out of "+str(len(texto)))
                 #print("j= "+ str(j)+" out of "+str(len(texto[i]) - 1))
                 #print("l= "+ str(l)+" out of "+str(len(texto[i][j])))
-                if len(texto[i][j][l]) > 2:
+                if len(texto[i][j][l]) > 2: #se esse dia tiver algo escrito (mais do que um espaço)
                     # print(texto[i][j][l])
                     if texto[i][j][l][0] == " " and texto[i][j][l].lstrip(
-                    )[0].isupper():
+                    )[0].isupper(): #e se esse dia tiver algo escrito que começa com maiuscula
                         cont += 1
                         # print(cont)
                         # print(texto[i][j][l])
                         #print("i=" + str(i) + "; j=" + str(j) + "; k=" + str(l))
                         # print(ementa[i][j][k])
-                        # print(texto[i][j][k])
+                        #print(texto[i][j][k])
+                        #print(str(i),"out of",len(texto),str(j),"out of",len(texto[i]),str(l),"out of",len(texto[i][j]))
                         ementa[i][j][k] = texto[i][j][l].lstrip()
                         #print("semana " + str(i) + " dia " + str(k) + " prato " + str(j))
                         # print(texto[i][j][k])
