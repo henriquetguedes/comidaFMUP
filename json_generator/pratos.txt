@@ -1,234 +1,231 @@
 CHUSJ-PÓLO PORTO
  
-REFEITÓRIO 
+REFEITÓRIO
  
-             SEMANA 1: 7 a 13  de Setembro de 2020
+SEMANA 2 : 14 a 20 de Setembro de 2020
  
 Alergénios
- Alergénios
  ALMOÇO
+ Alergénios
  JANTAR
  
 Segunda
  
-1,3,6,7,8,10,11,12
+1,6,7, 8, 12
+ Bifes de frango c/m. de cogumelos, c/arroz e bat pala
  CARNE
- 1,3,6,7,8,10,11,12
- Francesinha com batata pala
- Costeleta à salsicheiro com puré de batata
+ 1,6,10,12
+ Rôti de peru com batata assada e arroz
  
-3,4,12,13
+3, 4,12
+ Salada de feijão frade com atum
  PEIXE
- 1,3,4,6,7,12
- Lasanha de Bacalhau
- Peixe à Gomes de Sá
+ 1,3,4,6,7,9,10,11,12
+ Almôndegas de pescada c/m. de tomate e puré
  
-1,3,6,7,9,10,12
+4,12
+ Badejo cozido com batata cozida
  DIETA
- 4,12
- Carapau grelhado com batata cozida
- Frango estufado simples com puré
+ 1,6,12
+ Carne de vaca estufada simples com arroz
  
 OPÇÃO
  
-3,6,7,12
+3,12,13
+ Legumes à Brás
  VEGET.
- 1,3,6,7,8,12
- Pizza de legumes
- Pimentos recheados com legumes, com arroz
+ 6,12
+ Soja tropical com arroz
  
-JANTAR
- ALMOÇO
+ALMOÇO
+ JANTAR
  
 Terça
  
-6,7,12
+2,6,7,10,12,14
+ Arroz à Valenciana
  CARNE
- 1,3,6,7,11,12
- Folhados de frango com arroz 
- Rojões à Portuguesa (arroz)
+ 1,6,12,13,14
+ Carne de porco à Alentejana (arroz)
  
-1,3, 4,7,12
+1,3,4,6,12
+ Bacalhau panado no forno c/ arroz
  PEIXE
- 4,12
- Perca assada no forno com batatinha assada
- Tagliatelle com atum e pimentos
+ 1,3,4
+ Tagliatelle com salmão
  
-4,12
+1,3,12
+ Escalopes de peru  grelhados com esparguete
  DIETA
- 1,3,12
- Salmão grelhado com batata cozida
- Carne vaca estufª simp. c/ervilhas e esparguete
+ 4,12
+ Pescada grelhada c/bat cozida, cenoura e couve
  
 OPÇÃO
  
-1,6,11,12
+3,7,12
+ Tomate recheado c/legumes e gratinado, c/arroz
  VEGET.
- 1,6,7,8,12
- Jardineira de soja com forma de arroz
- Chili vegetariano com arroz
+ 1,3,6,7,12
+ Canelones de legumes e queijo fresco
  
 ALMOÇO
  JANTAR
  
 Quarta
  
-3,6,7,12
+1,3,6,7,12
+ Frango assado c/ananás, bat assada e arroz
  CARNE
- 12
- Arroz de pato
- Lombo de porco assado com batatinha assada
+ 1,6,7,12
+ Alheira com arroz de legumes
  
-1,4,6,7,12
+3,4,12,13
+ Pescada à Gomes de Sá
  PEIXE
- 4,12
- Salmão à Rosa do Adro com arroz 
- Robalo grelhado com batata a murro
+ 1.3,4,6,12
+ Empadão de pescada 
  
-7,12
+4,9,12,14
+ Dourada grelhada com arroz
  DIETA
- 1,4,6,7,11,12
- Badejo assado ao natural com arroz
- Cozido Simples (arroz e batata cozida)
+ 12
+ Costeleta grelhada com arroz de legumes
  
 OPÇÃO
  
-1,3,6,7,12
+6,12
+ Feijoada à Provençal com arroz
  VEGET.
- 1,3,6,7,12
- Massa de legumes gratinada
- Crepes de legumes com arroz
+ 3,6
+ Omelete de brócolos com arroz 
  
-JANTAR
- ALMOÇO
+ALMOÇO
+ JANTAR
  
 Quinta
  
-3,6,7,12
+1,3,6,7,12
+ Hambúrguer misto c/m. cogumelos e arroz
  CARNE
- 12
- Novilho assado com batatinha assada e arroz
- Shoarma com arroz e batata pala
+ 3,6,7,12
+ Sharma com batata pala e arroz
  
-1,3,4,6,7,11,12
+1,3,4,6,7,12
+ Paloco com natas
  PEIXE
- 3,12,14
- Rolinhos de pescada c/bacon e arroz
- Salada de choco com grão de bico e ovo
+ 3,13
+ Salada de grão de bico c/ manto de pota e ovo
  
-4,7,12
+12
+ Bifes de frango grelhados com arroz
  DIETA
- 1,3,12
- Solha grelhada com salada russa
- Bife de peru estufado simples com arroz
+ 4,12
+ Robalo grelhado com arroz
  
 OPÇÃO
  
-1,3,6,7,12
+1,3,6,7,8,12
+ Quiche de espinafres e arroz
  VEGET.
- 1,3.6,7,8,12
- Tortilha de queijo e legumes
- Almofadinhas de legumes com arroz
+ 1,3,6,7,12
+ Lasanha de legumes
  
 ALMOÇO
  JANTAR
  
 Sexta
  
-1,3,6,7,9,10,12
+1,6,7,12
+ Carne de vaca à fatia c/cenoura às rodelas e arroz
  CARNE
- 12
- Costeleteta de porco à Mirandesa com batata a murro
- Massa gratinada com frango e alheira
+ 1,3,12
+ Frango com cogumelos e massa fusilli
  
-1,3,4,6,12
+1,4,6,7,11,12
+ Pimento recheado c/ atum com arroz 
  PEIXE
- 3,4,7,12,13
- Peixe à Brás
- Bacalhau à Lagareiro com batata a murro
- 
-12
- DIETA
  4,12
- Red-fish assado ao nat. c/bat. assada ao natural
- Costeleta grelhada com arroz
+ Bacalhau em cama de legumes c/arroz
+ 
+1,4,6,7,12
+ Perca grelhada com batata a murro
+ DIETA
+ 1,3,6,7,9,10,12
+ Coelho estufado simples com puré
  
 OPÇÃO
  
-1,3,6,11,12
+1,3,6,7,9,10
+ Empadão de legumes
  VEGET.
- 1,3,6,7,11,12
- Tofu à Parmegiana com arroz
- Bolonhesa de soja com esparguete
+ 1,3,12
+ Salteado de cuscuz com curgete e cenoura
  
-JANTAR
- ALMOÇO
+ALMOÇO
+ JANTAR
  
 Sábado
  
-6,7,10,12
+1,3,6,7,12
+ Lasanha de carne
  CARNE
- 1,3,6,12
- Macarronete de carne de vaca c/cenoura-rodelas
- Churrasquinho de carnes c/arroz e feijão preto
+ 6,7,12
+ Arroz de aves no forno
  
-4,12
+4,7,12
+ Peixe espada grelhado c/m. manteiga e bat cozida
  PEIXE
- 1,4,6,7,8,11,12
- Corvina assada com broa e batatinha assada
- Espetadas de peixe (salmão/tintureira) c//bat cozida
+ 4,12
+ Corvina assada com batata assada e arroz
  
-4,12
+12
+ Costeleta  grelhada com arroz
  DIETA
- 1,3,7,12
- Escalopes de frango grelhados com arroz
- Pescada cozida com batata cozida
+ 4,12
+ Pescada cozida com salada russa
  
 OPÇÃO
  
-1,3,6,7,8,12
+1,6,7,12
+ Chili vegetariano com arroz
  VEGET.
- 3,7,12
- Omolete de cogumelos com arroz
- Tarte de legumes c/ forma de arroz
+ 12
+ Caril de grão com legumes e arroz
  
-JANTAR
- ALMOÇO
+ALMOÇO
+ JANTAR
  
 Domingo
  
-1,3,6,7,11,12
- CARNE
- 1,3,6,7,9,10,12
- Fêvera grelhada com m. de cogumelos e puré
- Rolo de carne recheado com espinafres, c/arroz
- 
-4,7,12
- PEIXE
- 1,3,4,6,7,11,12,13
- Medalhões de pescada em crosta e arroz
- Peixe espada grelh c/m.manteiga e salsa e bat. coz
- 
 12
+ Lombo assado com batata assada
+ CARNE
+ 1,3,6,7,8,12
+ Folhados de carne com arroz
+ 
+1,3,4
+ Choco grelhado (c/molho mant e salsa) e bat coz.
+ PEIXE
+ 1,3,4,6,7,12
+ Sardinha assada com pimentos e batata cozida
+ 
+1,3,4,6.7,9,10
+ Badejo estufado com arroz
  DIETA
- 4,12
- Truta grelhada com batata cozida
- Frango assado ao natural com arroz 
+ 1,3,12
+ Fêvera  grelhada com laços
  
 OPÇÃO
  
 1,3,6,12
+ Salada morna de laçarotes
  VEGET.
- 12
- Caril de grão e couve lombarda com arroz
- Hambúrguer de beterraba e curgete com arroz
+ 1,3,6,12
+ Hambúrguer de feijão frade e cenoura com arroz
  
-
 Lista de alergénios de acordo com Reg.1169/2011: 1- Glúten; 2- Crustáceos; 3- Ovos; 4- Peixe; 5- Amendoim; 6- Soja; 7- Leite; 8- Frutos de casca rija; 9- Aipo; 10- Mostarda; 11- Sésamo; 12- Dióxido de enxofre; 13- Tremoço; 14- Moluscos
  
- 
- 
-laranja colorida.jpg
+
 http://intranet/dq/PublishingImages/Nutri%C3%A7%C3%A3o.jpg
 
 
